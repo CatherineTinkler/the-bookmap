@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The BookMap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The BookMap</h1>
+        <p class="subtitle">Let the stories come to life in the place that you are visiting</p>
+    </header>
+
+    <section class="map-section">
+        <img src="images/world-map-placeholder.jpg" alt="Hand-drawn World Map" class="map-image">
+    </section>
+
+    <section class="search-section">
+        <label for="place-select">Find Books by Place:</label>
+        <select id="place-select" onchange="filterBooks()">
+            <option value="">Select a Place</option>
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="newyork">New York</option>
+        </select>
+    </section>
+
+    <section class="books-section" id="books-section">
+        <div class="book" data-place="paris">
+            <img src="images/book1.jpg" alt="Book 1">
+            <a href="#" target="_blank">Book Set in Paris</a>
+        </div>
+        <div class="book" data-place="tokyo">
+            <img src="images/book2.jpg" alt="Book 2">
+            <a href="#" target="_blank">Book Set in Tokyo</a>
+        </div>
+        <div class="book" data-place="newyork">
+            <img src="images/book3.jpg" alt="Book 3">
+            <a href="#" target="_blank">Book Set in New York</a>
+        </div>
+    </section>
+
+    <section class="waiting-list">
+        <a href="https://docs.google.com/forms/d/12IhZRZ7DvB8F0-Ycjoc7ggnDCWLwsfAFCKq_-w-s_r8/edit" target="_blank" class="button">
+            Join the Waiting List
+        </a>
+    </section>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

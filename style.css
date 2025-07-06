@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/texture.jpg');
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.map-section {
+    padding: 20px;
+}
+
+.map-image {
+    max-width: 90%;
+    border: 2px dashed #888;
+    border-radius: 8px;
+}
+
+.search-section {
+    margin: 20px;
+}
+
+.books-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.book img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.waiting-list {
+    margin: 30px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #557a95;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
