@@ -1,8 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('images/texture.jpg');
-    background-size: cover;
+    background: #faf6ef;
     color: #333;
     text-align: center;
     margin: 0;
@@ -24,33 +23,12 @@ header {
 }
 
 .map-image {
-    max-width: 90%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
     border: 2px dashed #888;
     border-radius: 8px;
-}
-
-.search-section {
-    margin: 20px;
-}
-
-.books-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.book {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    width: 150px;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.book img {
-    max-width: 100%;
-    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .waiting-list {
