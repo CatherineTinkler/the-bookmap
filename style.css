@@ -22,13 +22,24 @@ header {
     padding: 20px;
 }
 
-.map-image {
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.map-container .map-image {
     width: 100%;
     max-width: 800px;
     height: auto;
-    border: 2px dashed #888;
-    border-radius: 8px;
-    margin-bottom: 30px;
+}
+
+.map-pin {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
 }
 
 .waiting-list {
